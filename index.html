@@ -7,61 +7,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Напрямки роботи</a></li>
-          <li><a href="#">Навчання</a></li>
-          <li><a href="#">Наші подорожі</a></li>
-          <li><a href="#">Наша команда</a></li>
-          <li><a href="#">Відгуки</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Про нас</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Напрямки роботи</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Навчання</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Наші подорожі</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Наша команда</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Відгуки</a></li>
         </ul>
-        <img src="./images/telephone.png" alt="telephone" />
-        <img src="./images/location.png" alt="location" />
-        <img src="./images/mail.png" alt="mail" />
+        <img src="./images/telephone.png" alt="telephone" class="nav-image" />
+        <img src="./images/location.png" alt="location" class="nav-image" />
+        <img src="./images/mail.png" alt="mail" class="nav-image" />
       </nav>
     </header>
     <main>
       <!-- секція Giraffe Club -->
-      <section>
-        <h1>Giraffe Club</h1>
-        <p>
+      <section class="section-club">
+        <h1 class="club-title">Giraffe Club</h1>
+        <p class="club-text">
           Офіційний сертифікований центр підготовки до міжнародних екзаменів
           Cambrige
         </p>
-        <img src="./images/Giraffe-photo-2.jpg" alt="Giraffe-photo" />
-        <button type="button">Отримати консультацію</button>
+        <img src="./images/Giraffe-photo-2.jpg" alt="Giraffe-photo" class="club-image" />
+        <button type="button" class="club-btn">Отримати консультацію</button>
       </section>
       <!-- секція напрямки роботи -->
-      <section>
-        <a href="#">Про нас</a>
-        <h2>Мовних шкіл багато - лідер один!</h2>
-        <ul>
-          <li>
-            <img src="./images/calendar.png" alt="calendar" />
+      <section class="section-work">
+        <a href="#" class="work-a">Про нас</a>
+        <h2 class="work-title">Мовних шкіл багато - лідер один!</h2>
+        <ul class="work-list">
+          <li class="work-item">
+            <img src="./images/calendar.png" alt="calendar"/>
             <p>6 років успішної роботи</p>
           </li>
-          <li>
-            <img src="./images/open-book.png" alt="open-book" />
+          <li class="work-item">
+            <img src="./images/open-book.png" alt="open-book"/>
             <p>Сучасні програми й навчальні матеріали</p>
           </li>
           <li>
-            <img src="./images/female.png" alt="female" />
+            <img src="./images/female.png" alt="female"/>
             <p>Професійні викладачи</p>
           </li>
-          <li>
-            <img src="./images/success.png" alt="success" />
+          <li class="work-item">
+            <img src="./images/success.png" alt="success"/>
             <p>Переможець «Народний Бренд» (2018, 2019, 2020)</p>
           </li>
-          <li>
-            <img src="" alt="" />
+          <li class="work-item">
+            <img src="./images/handshake.png" alt="handshake"/>
             <p>Топ партнер Cambridge Assessment English</p>
           </li>
-          <li>
+          <li class="work-item">
             <img
               src="./images/graduating-student.png"
               alt="graduating-student"
@@ -70,76 +71,72 @@
           </li>
         </ul>
       </section>
-      <section>
-        <a href="#">Напрямки роботи</a>
-        <h2>Що ти можеш у нас знайти?</h2>
-        <img src="./images/Giraffe-photo-2.jpg" alt="Giraffe-photo" width="418px" height="590px" />
-        <ul>
-          <li>
+       <!-- секція Що ти можеш у нас знайти? -->
+      <section class="section-find">
+        <a href="#" class="find-a">Напрямки роботи</a>
+        <h2 class="find-title">Що ти можеш у нас знайти?</h2>
+        <img src="./images/Giraffe-photo-2.jpg" alt="Giraffe-photo" class="find-image"/>
+        <ul class="find-list">
+          <li class="find-item">
             <p>Англійська для дітей від 1 року</p>
           </li>
-          <li>
+          <li class="find-item">
             <p>Англійська для дорослих</p>
           </li>
-          <li>
+          <li> class="find-item"
             <p>Americanschool для школярів (1- 11 клас)</p>
           </li>
-          <li>
+          <li class="find-item">
             <p>Підготовка до ЗНО</p>
           </li>
-          <li>
+          <li class="find-item">
             <p>Підготовка до міжнародних екзаменів YLE, KET, PET, FCE, IELTS</p>
           </li>
-          <li>
+          <li class="find-item">
             <p>Німецька для дорослих та дітей, віком від 3 років</p>
           </li>
-          <li>
+          <li class="find-item">
             <p>Підготовка дітей до школи</p>
           </li>
-          <li>
+          <li class="find-item">
             <p>Літній табір</p>
           </li>
         </ul>
-        <img src="./images/Giraffe-photo-2.jpg" alt="Giraffe-photo" width="418px" height="590px"/>
+        <img src="./images/Giraffe-photo-2.jpg" alt="Giraffe-photo"/>
         <button type="button">Залишити заявку</button>
       </section>
       <!-- секція навчання -->
-      <section>
-        <a href="#">Навчання</a>
-        <h2>Вивчення іноземної мови</h2>
-        <ul>
-          <li>
+      <section class="section-teaching">
+        <a class="teaching-a" href="#">Навчання</a>
+        <h2 class="teaching-title">Вивчення іноземної мови</h2>
+        <ul class="teaching-list">
+          <li class="teaching-item">
             <p>У групах</p>
           </li>
-          <li>
+          <li class="teaching-item">
             <p>У міні-групах</p>
           </li>
-          <li>
+          <li class="teaching-item">
             <p>Індивідуально</p>
           </li>
         </ul>
-        <img
-          src="./images/children-photo.jpg"
-          alt="children-photo"
-          width="956px"
-          height="505px"
-        />
-        <ul>
-          <li>
+        <img src="./images/children-photo.jpg" alt="children-photo" class="teaching-img"/>
+        <ul class="teaching-list">
+          <li class="teaching-item">
             <h3>Стандартний</h3>
             <p>
               Заняття 2 рази на тиждень тривалістю від 30 до 60 хв. (в
               залежності від віку).
             </p>
           </li>
-          <li>
+          <li class="teaching-item">
             <h3>Поглиблений</h3>
             <p>
               Заняття 3 рази на тиждень по 1 год. 20 хв. З Кембриджським іспитом
               на новий рівень в кінці навчального року.
             </p>
           </li>
-          <li>
+          <li class="teaching-item">
             <h3>Онлайн-курси</h3>
             <p>
               Можна обрати як стандартний, так і поглиблений формат та вивчати
@@ -149,19 +146,19 @@
         </ul>
       </section>
       <!-- секція наші подорожі -->
-      <section>
-        <a href="#">Наші подорожі</a>
-        <h2>Ми подорожуємо світом</h2>
-        <p>Лондон, Греція, Болгарія, Польша, різні міста України. </p>
-        <p>Гарною традицією «GiraffeClub» стали освітні подорожі студентів в різні країни. Окрім вивчення англійської й покращення практичних навичок мови у спеціалізованих мовних центрах світу, програми поїздок передбачають щоденні розваги й екскурсії.</p>
-        <img src="./images/travel_1.jpg" alt="travel" width="410px" height="500px"/>
-        <img src="./images/travel_2.jpg" alt="travel" width="678px" height=" 392px"/>
-        <img src="./images/travel_3.jpg" alt="travel" width="557px" height="392px"/>
-        <img src="./images/travel_4.jpg" alt="travel" width="405px" height="500px"/>
-        <img src="./images/travel_5.jpg" alt="travel" width="524px" height="608px"/>
-        <img src="./images/travel_6.jpg" alt="travel" width="711px" height="392px"/>
-        <img src="./images/travel_7.jpg" alt="travel" width="286px" height="286px"/>
-        <img src="./images/travel_8.jpg" alt="travel" width="408px" height="196px"/>
+      <section class="section-travel">
+        <a class="travel-link" href="#">Наші подорожі</a>
+        <h2 class="travel-title">Ми подорожуємо світом</h2>
+        <img class="travel-img" src="./images/travel_1.jpg" alt="travel"/>
+        <p class="travel-text">Лондон, Греція, Болгарія, Польша, різні міста України. </p>
+        <p class="travel-desc">Гарною традицією «GiraffeClub» стали освітні подорожі студентів в різні країни. Окрім вивчення англійської й покращення практичних навичок мови у спеціалізованих мовних центрах світу, програми поїздок передбачають щоденні розваги й екскурсії.</p>
+        <img src="./images/travel_2.jpg" alt="photo"/>
+        <img src="./images/travel_3.jpg" alt="photo"/>
+        <img src="./images/travel_4.jpg" alt="photo"/>
+        <img src="./images/travel_5.jpg" alt="photo"/>
+        <img src="./images/travel_8.jpg" alt="photo"/>
+        <img src="./images/travel_6.jpg" alt="photo"/>
+        <img src="./images/travel_7.jpg" alt="photo"/>
       </section>
       <!-- секція наша команда -->
       <section>
@@ -169,12 +166,12 @@
         <h2>Найкраща команда - найкращі результати</h2>
         <ul>
             <li>
-                <img src="./images/Valeria-Zviranska.jpg" alt="Valeria-Zviranska">
+                <img src="./images/Valeria-Zviranska.jpg" alt="Valeria-Zviranska"/>
                 <h3>Валерія Звіранська</h3>
                 <p>Адміністратор</p>
             </li>
             <li>
-                <img src="./images/Olga_Manuilova.jpg" alt="Olga_Manuilova">
+                <img src="./images/Olga_Manuilova.jpg" alt="Olga_Manuilova"/>
                 <h3>Ольга Мануйлова</h3>
                 <p>Засновниця школи.</p>
                 <p>Має вищу педагогічну освіту.
@@ -182,7 +179,7 @@
                     <p>Викладацький стаж: 22 роки</p>
             </li>
             <li>
-                <img src="./images/Natalia_Shmalko.jpg" alt="Natalia_Shmalko">
+                <img src="./images/Natalia_Shmalko.jpg" alt="Natalia_Shmalko"/>
                 <h3>Наталія Шмалько</h3>
                 <p>Адміністратор</p>
             </li>
@@ -194,7 +191,7 @@
         <h3>Ольга Березовська</h3>
         <p>приватний нотаріус м.Кропивницький</p>
         <p>Високий рівень викладання – викладачі прекрасні, професіонали своєї справи. Звернулися до Ольги до Жирафа Клаба за рекомендацією. Хочу особливо відзначити організованість, дисципліну, чіткість, гарний та зручний дизайн офісу. Враження лише позитивні, чудові, результат навчання – міжнародний сертифікат у дочки. Рекомендую.</p>
-        <img src="./images/mini_Giraffe.png" alt="mini_Giraffe">
+        <img src="./images/mini_Giraffe.png" alt="mini_Giraffe"/>
       </section>
     </main>
     <footer>
@@ -218,8 +215,8 @@
             >
           </li>
         </ul>
-        <img src="./images/icon-facebook.png" alt="icon-facebook" />
-        <img src="./images/Icon-Instagram.png" alt="Icon-Instagram" />
+        <img src="./images/icon-facebook.png" alt="icon-facebook"/>
+        <img src="./images/Icon-Instagram.png" alt="Icon-Instagram"/>
       </address>
     </footer>
   </body>

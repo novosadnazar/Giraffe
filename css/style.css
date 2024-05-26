@@ -1,0 +1,67 @@
+:root {
+    --accent-color:#DE742BE5;
+    --text-color:#000;
+    --background-color: #FCFCFC;
+}
+
+*,
+*::after
+*::before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+header {
+ background-color: var(--accent-color);
+}
+
+.nav-link {
+color: var(--text-color);
+text-align: center;
+font-family: "Bookman Old Style";
+font-size: 26px;
+font-weight: 300px;
+line-height: 2.1;
+}
+
+.nav-image {
+ width: 64px;
+height: 39px;
+}
+
+.club-title {
+color: var(--text-color);
+text-align: center;
+font-family: "Bookman Old Style";
+font-size: 90px;
+font-weight: 600;
+line-height: 2.22;
+}
+
+.club-text {
+    idth: 875px;
+color: var(--Font-Color-Black, #000);
+font-family: "Bookman Old Style";
+font-size: 50px;
+font-style: normal;
+font-weight: 300;
+line-height: 3.30; /* 65px */
+}
