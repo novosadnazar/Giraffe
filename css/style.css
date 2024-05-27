@@ -29,6 +29,10 @@ img {
     display: block;
 }
 
+body {
+    font-family: "Bookman Old Style";
+}
+
 header {
  background-color: var(--accent-color);
 }
@@ -36,7 +40,6 @@ header {
 .nav-link {
 color: var(--text-color);
 text-align: center;
-font-family: "Bookman Old Style";
 font-size: 26px;
 font-weight: 300px;
 line-height: 2.1;
@@ -46,22 +49,263 @@ line-height: 2.1;
  width: 64px;
 height: 39px;
 }
+/* секція клуб */
 
 .club-title {
 color: var(--text-color);
 text-align: center;
-font-family: "Bookman Old Style";
 font-size: 90px;
 font-weight: 600;
 line-height: 2.22;
 }
 
 .club-text {
-    idth: 875px;
-color: var(--Font-Color-Black, #000);
-font-family: "Bookman Old Style";
+width: 875px;
+color: var(--text-color);
 font-size: 50px;
 font-style: normal;
 font-weight: 300;
 line-height: 3.30; /* 65px */
+}
+
+.club-image {
+width: 539px;
+height: 761px;
+}
+
+.club-btn {
+padding: 20px 42px;
+align-items: flex-start;
+gap: 10px;
+}
+
+/* секція робота */
+
+.work-a {
+color: var(--accent-color);
+text-align: center;
+font-size: 26px;
+font-weight: 600;
+line-height: normal;
+}
+
+.work-title {
+color: var(--text-color);
+text-align: center;
+font-size: 50px;
+font-weight: 300;
+line-height: 130%;
+}
+
+.work-img {
+    width: 206px;
+    height: 206px;
+}
+
+.work-text {
+    color: var(--text-color);
+    text-align: center;
+
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 130%; /* 44.2px */
+}
+
+.section-find {
+    background-color: var(--accent-color);
+}
+
+/* секція знайти */
+
+.find-a {
+    color: var(--background-color);
+    text-align: center;
+
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.find-title {
+    color: var(--text-color);
+    text-align: center;
+
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.find-image {
+    width: 418px;
+    height: 590px;
+}
+
+.find-text {
+    color: var(--text-color);
+    width: 824px;
+    height: 82px;
+}
+
+/* секція навчання */
+
+.teaching-a {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.teaching-title {
+    color: var(--text-color);
+    text-align: center;
+
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 130%; /* 65px */
+}
+
+.teaching-text {
+    color: var(--text-color);
+    text-align: center;
+
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.teaching-desc {
+    color: var(--text-color);
+    text-align: center;
+
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+
+.teaching-img {
+    width: 956px;
+    height: 505px;
+}
+
+
+
+.travel-link {
+    color: var(--text-color);
+    text-align: center;
+
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.travel-title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 130%; 
+}
+
+.travel-img {
+    width: 678px;
+    height: 392px;
+}
+
+.travel-text {
+    color: var(--text-color);
+
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.travel-imade {
+    width: 405px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.team-link {
+    color: var(--background-color);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team-title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.team-image {
+
+}
+
+.team-paragraph {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.team-text {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.response-link {
+color: var(--text-color);
+text-align: center;
+font-size: 26px;
+font-weight: 600;
+line-height: normal;
+}
+
+.response-title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.response-paragraph {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 44.2px */
+}
+
+.response-text {
+    color: var(--text-color);
+    font-size: 26px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.response-desc {
+    color: var(--text-color);
+    font-size: 26px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.response-image {
+    width: 76px;
+    height: 107px;
+    flex-shrink: 0;
 }
