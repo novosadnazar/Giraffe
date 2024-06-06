@@ -33,6 +33,14 @@ body {
     font-family: "Bookman Old Style";
 }
 
+.container {
+    width: 1700px;
+    padding-left: 10px;
+    padding-right:10px ;
+    margin: 0 auto;
+    outline: solid 3px color red;
+  }
+
 header {
  background-color: var(--accent-color);
 }
@@ -244,25 +252,48 @@ line-height: 130%;
     line-height: 130%;
 }
 
-.team-image {
-
+.team {    background-color: var(--accent-color);
 }
 
 .team-paragraph {
-    color: var(--text-color);
-    text-align: center;
-    font-size: 34px;
-    font-weight: 300;
-    line-height: 130%;
+color: var(--text-color);
+text-align: center;
+font-size: 34px;
+font-weight: 300;
+line-height: 130%;
 }
 
 .team-text {
-    color: var(--text-color);
-    text-align: center;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+color: var(--text-color);
+text-align: center;
+font-size: 26px;
+font-weight: 300;
+line-height: normal;
+}
+
+.team-desc {
+color: var(--text-color);
+text-align: center;
+font-size: 26px;
+font-weight: 300;
+line-height: normal;
+}
+
+.team-description {
+color: var(--text-color);
+text-align: center;
+font-size: 26px;
+font-weight: 300;
+line-height: normal;
+}
+
+.section-response {
+width: 1330px;
+height: 332px;
+border-radius: 20px;
+background: var(--accent-color);
+justify-content: center;
+margin-bottom: 120px;
 }
 
 .response-link {
@@ -287,7 +318,7 @@ line-height: normal;
     font-size: 34px;
     font-style: normal;
     font-weight: 300;
-    line-height: 130%; /* 44.2px */
+    line-height: 130%; 
 }
 
 .response-text {
@@ -309,3 +340,43 @@ line-height: normal;
     height: 107px;
     flex-shrink: 0;
 }
+
+footer {
+    background-color: var(--accent-color);
+}
+
+.address-link {
+color: var(--text-color);
+text-align: center;
+font-size: 41.619px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.address-text {
+color: var(--text-color);
+text-align: center;
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+}
+
+.address {
+color: var(--text-color);
+text-align: center;
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+}
+
+.address-icon {
+width: 24px;
+height: 24px;
+border-radius: 6px;
+border: 2px solid var(--text-color);
+}
+
+
+
+
